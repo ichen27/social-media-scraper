@@ -33,6 +33,12 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# seed scripts with credentials
+supabase-seed-admin.sql
+
+# supabase local config (contains project refs)
+supabase/.temp/
+
 # vercel
 .vercel
 
